@@ -8,7 +8,8 @@ class Car
   include Drivable
 end
 
-class Truck < Car
+class Truck
+  include Drivable
 end
 
 car = Car.new

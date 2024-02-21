@@ -10,4 +10,4 @@ end
 
 my_gadget = Gadget.new('iPhone 12', '$999')
 puts my_gadget.name
-my_gadget.price = '$700'
+my_gadget.price = '$700' # changing price to 700
